@@ -27,6 +27,11 @@ main p {
     color: #0e0d0d;
 }
 
+.aside-content h1, .aside-content p{
+    color: #000000;
+    text-align: center;
+}
+
 .header-content {
     height: 100px;
 }
