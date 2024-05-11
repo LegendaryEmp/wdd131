@@ -49,6 +49,6 @@ figcaption {
 	transition: 0.2s ease;
 }
 
-a.nav-link:hover {
+a:hover {
 	color: aqua;
 }
