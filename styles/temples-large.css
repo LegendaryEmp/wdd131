@@ -17,6 +17,9 @@ a {
 	color: #fff;
 	text-decoration: none;
 }
+p {
+    text-align: center;
+}
 
 .nav-bar {
 	min-height: 72px;
@@ -33,6 +36,9 @@ a {
 	width: 50%;
 }
 
+figcaption {
+    text-align: center;
+}
 
 .title {
 	font-size: 2rem;
@@ -43,6 +49,6 @@ a {
 	transition: 0.2s ease;
 }
 
-.nav-link:hover {
+a.nav-link:hover {
 	color: aqua;
 }
