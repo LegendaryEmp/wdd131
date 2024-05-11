@@ -121,7 +121,7 @@ hr {
     padding-top: 70px;
 }
 .resources li {
-    
+    list-style: none;
 }
 .resources a{
     text-decoration: none;
