@@ -48,6 +48,17 @@ main {
     padding-right: 50%;
     color: #fff;
  }
+ .aside-r h2::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../images/weather-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    padding-left: 40px;
+}
+ 
  .aside-r {
     position: absolute;
     right: 20px;
@@ -56,7 +67,8 @@ main {
     padding: 10px;
  }
  .aside-r img{
-    width: 50px
+    width: 50px;
+    display: none;
  }
  .r-h2 {
     display: flex;
@@ -105,7 +117,7 @@ footer p {
 
 }
 
-@media (max-width: 521px) {
+@media (max-width: 615px) {
     .aside-l, .aside-r {
         position: static;
     }
@@ -135,13 +147,17 @@ footer p {
     .r-h2 img {
         width: 40%;
         padding: 30px;
-
+        display: inline-flex;
     }
+
     .datatable {
         width: 80%;
         margin: 0 auto;
     }
     .row {
         font-size: 2rem;
+    }
+    .aside-r h2::after{
+        display: none;
     }
 }
