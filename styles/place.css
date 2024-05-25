@@ -1,4 +1,7 @@
-
+:root {
+    --headercolor: #143614;
+    --whitecolor: #fff;
+}
 
 *{
     padding: 0;
@@ -6,11 +9,11 @@
 }
 header {
     height: 100px;
-    background-color: #143614;
+    background-color: var(--headercolor);
 }
 
 .country-h1{
-    color: #fff;
+    color: var(--whitecolor);
     text-align: center;
     line-height: 100px;
     font-size: 3rem;
