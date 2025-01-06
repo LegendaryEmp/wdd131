@@ -1,0 +1,18 @@
+.class {
+    display: grid;
+    place-items: center;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    background-color: antiquewhite;
+    flex: 1 1 150px;
+    flex: 0 1 150px;
+    margin: 5px;
+
+}
