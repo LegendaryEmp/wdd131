@@ -17,7 +17,7 @@ header h1 {
     flex: 1;
 }
 
-nav {
+nav ul {
     display: flex;
     justify-content: space-between;
     padding: 20px;
