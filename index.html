@@ -4,22 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Jacob Okwusi Mbabo">
+    <meta name="description" content="week one website assignments on WDD 131 Dynamic Web Fundamentals">
+    <link rel="stylesheet" href="styles/base.css">
+    <title>WDD 131 - Dynamic Web Fundamentals - Mbabo Jacob Okwusi</title>
 </head>
 
 <body>
-    <p>Center!</p>
-    <div class="class">
-        <h1>Dance</h1>
-    </div>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Mbabo Jacob Okwusi</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jacob-mbabo-9963a9a4/">LinkedIn </a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn </a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a></li>
+                <li><a href="#">Final Project </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h1>About Me</h1>
+            <div class="personal-info">
+                <p class="paragraph">My name is Jacob Okwusi Mbabo, I was born in Ebukuma community, Andoni L.G.A of
+                    Rivers State, Nigeria. I live in Port Harcourt the capital city of Rivers State. I am currently
+                    enrolled in BYUi studying Software Development.</p>
+                <img src="images/me.jpg" alt="My Picture">
+            </div>
 
-    <p>Deconstructed Pancake</p>
-    <div class="parent white">
-        <div class="box green">1</div>
-        <div class="box green">2</div>
-        <div class="box green">3</div>
-    </div>
+            <h2>Port Harcourt, Nigeria</h2>
+            <hr>
+            <div class="country-info">
+                <div class="flag">
+                    <img src="images/nigeria-flag.jpg" alt="Nigeria Flag">
+                    <h2>Official Flag Of Nigeria</h2>
+                </div>
+                <p>Nigeria is a country in West Africa. It is situated between the Sahel to the north and the Gulf of
+                    Guinea to the south in the Atlantic Ocean. It covers an area of 923,769 square kilometres (356,669
+                    sq mi), and with a population of over 230 million, it is the most populous country in Africa, and
+                    the world's sixth-most populous country. Nigeria borders Niger in the north, Chad in the northeast,
+                    Cameroon in the east, and Benin in the west. Nigeria is a federal republic comprising 36 states and
+                    the Federal Capital Territory, where the capital, Abuja, is located. </p>
+            </div>
+        </section>
+        <section class="card">
+            <h1 class="second-h1">WDD 131 - Dynamic Web Fundamentals - Web Dev Resources
+            </h1>
+            <div class="resources">
+                <ul>
+                    <li><a href="https://www.w3schools.com/">W3schools</a></li>
+                    <li><a href="https://www.youtube.com">Youtube</a></li>
+                    <li><a href="https://www.github.com">GitHub</a></li>
+                    <li><a href="https://web.dev">Web.Dev</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy;<span id="currentyear"> </span> ✨ Mbabo Jacob Okwusi ✨ Nigeria</p>
+        <p id="lastmodified"></p>
+        <script defer src="scripts/getdates.js"></script>
+    </footer>
 </body>
 
 </html>
