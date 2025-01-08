@@ -1,18 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
     width: 80%;
     margin: 0 auto;
 }
-h1, h2, h3 {
-    font-family: "Cinzel", serif;
+
+h1,
+h2,
+h3 {
+    font-family: "Kanit", serif;
 }
-p, a {
-    font-family: "Lora", serif;
+
+p,
+a {
+    font-family: "Oswald", serif;
 }
 
 header {
@@ -21,7 +27,7 @@ header {
     background-color: #140925;
 }
 
-header h1{
+header h1 {
     text-align: center;
     padding: 20px 0;
     color: #f5f5dc;
@@ -30,7 +36,8 @@ header h1{
 nav {
     width: 100%;
 }
-nav ul{
+
+nav ul {
     background-color: #000000;
     height: 50px;
     display: flex;
@@ -44,7 +51,8 @@ nav a {
     color: #fff;
     display: block;
 }
-nav a:hover{
+
+nav a:hover {
     color: #000000;
     background-color: #fff;
 }
@@ -58,7 +66,7 @@ main {
     max-width: 100%;
 }
 
-main h1{
+main h1 {
     height: 50px;
     width: 100%;
     background-color: #140925;
@@ -67,11 +75,13 @@ main h1{
     line-height: 50px;
     border-radius: 10px 10px 0 0;
 }
+
 .second-h1 {
     font-size: 0.9em;
     height: fit-content;
     line-height: 2;
 }
+
 .card {
     border: 1px solid #4d4d4d;
     border-radius: 10px;
@@ -84,14 +94,15 @@ main h1{
     grid-gap: 50px;
 }
 
-.personal-info img{
+.personal-info img {
     height: 200px;
 }
 
-.personal-info p{
+.personal-info p {
     line-height: 1.5;
     font-size: 1.2rem;
 }
+
 hr {
     width: 70%;
     margin: 0 auto;
@@ -108,6 +119,7 @@ hr {
     padding: 30px;
     grid-gap: 30px;
 }
+
 .flag img {
     height: 100px;
 }
@@ -117,13 +129,16 @@ hr {
     place-items: center;
 
 }
+
 .resources ul {
     padding-top: 70px;
 }
+
 .resources li {
     list-style: none;
 }
-.resources a{
+
+.resources a {
     text-decoration: none;
     font-size: 1.3rem;
     line-height: 1.5;
@@ -137,6 +152,7 @@ footer {
     display: grid;
     place-items: center;
 }
+
 footer p {
     color: #fff;
 
