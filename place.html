@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jacob Okwusi Mbabo">
+    <meta name="description" content="wdd 131 country or place assignment">
+    <title>Country Or Place</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="country-h1">NIGERIA</h1>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width: 900px)" srcset="images/place-large-bk.webp">
+            <source media="(min-width: 450px)" srcset="images/place-medium-bk.webp">
+            <img src="images/place-small-bk.webp" alt="small place image" >
+        </picture>
+
+        <div class="aside-l">
+            <h2>Data</h2>
+            <div class="datatable">
+                <div class="row">
+                    <div class="col label">Area:</div>
+                    <div class="col value">923,768 km²</div>
+                </div>
+                <div class="row">
+                    <div class="col label">Population:</div>
+                    <div class="col value">229,152,217</div>
+                </div>
+                <div class="row">
+                    <div class="col label">Capital:</div>
+                    <div class="col value">Abuja</div>
+                </div>
+                <div class="row">
+                    <div class="col label">Languages:</div>
+                    <div class="col value">Hausa, Igbo, Yoruba</div>
+                </div>
+                <div class="row">
+                    <div class="col label">Currency:</div>
+                    <div class="col value">Naira</div>
+                </div>
+                <div class="row">
+                    <div class="col label">Time Zone:</div>
+                    <div class="col value">WAT +1</div>
+                </div>
+                <div class="row">
+                    <div class="col label">Calling Code:</div>
+                    <div class="col value">+234</div>
+                </div>
+                <div class="row">
+                    <div class="col label">Internet TLD:</div>
+                    <div class="col value">.NG</div>
+                </div>
+            </div>
+        </div>
+        <div class="aside-r">
+            <div class="r-h2">
+                <h2>Weather</h2>
+                <img src="images/weather-icon.svg" alt="weather logo">
+            </div>
+            <div class="datatable">
+                <div class="row">
+                    <div class="col label" >Temperature:</div>
+                    <div class="col value" id="temperature">32°C</div>
+                </div>
+                <div class="row">
+                    <div class="col label">Condition:</div>
+                    <div class="col value">Partly cloudy</div>
+                </div>
+                <div class="row">
+                    <div class="col label">Wind:</div>
+                    <div class="col value" id="wind-speed">13 km/h</div>
+                </div>
+                <div class="row">
+                    <div class="col label">Wind Chill:</div>
+                    <div class="col value" id="wind-chill"></div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"> </span> ✨ Mbabo Jacob Okwusi ✨ Nigeria</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,163 @@
+:root {
+    --headercolor: #143614;
+    --whitecolor: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 100px;
+    background-color: var(--headercolor);
+}
+
+.country-h1{
+    color: var(--whitecolor);
+    text-align: center;
+    line-height: 100px;
+    font-size: 3rem;
+}
+
+body {
+    min-width: 615px;
+}
+main {
+    position: relative;
+    
+}
+
+ picture img {
+    width: 100%;
+    
+ }
+
+ .aside-l {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    background-color: #fff;
+    padding: 10px;
+ }
+ .aside-l h2 {
+    background-color: #008000;
+    padding: 20px;
+    font-family: "Lora", serif;
+    
+    margin-left: -30px;
+    padding-right: 50%;
+    color: #fff;
+ }
+ .aside-r h2::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../images/weather-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    padding-left: 40px;
+}
+ 
+ .aside-r {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+ }
+ .aside-r img{
+    width: 50px;
+    display: none;
+ }
+ .r-h2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #008000;
+    margin-left: -30px;
+ }
+ .r-h2 h2{
+    color: #fff;
+    padding: 20px;
+ }
+
+ .datatable {
+    width: 70%;
+    margin: 0 auto;
+
+}
+.datatable .row {
+    display: table-row;
+}
+.datatable .col {
+    display: table-cell;
+    padding: 10px;
+}
+.datatable .label {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+.datatable .value {
+    background-color: #ffffff;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #143614;
+    display: grid;
+    place-items: center;
+}
+footer p {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+@media (max-width: 615px) {
+    .aside-l, .aside-r {
+        position: static;
+    }
+    .aside-l h2{
+        background-color: #fff;
+        margin: 0;
+        padding: 20px;
+        color: #000;
+        text-align: center;
+        font-size: 3rem;
+        
+    }
+    .r-h2 {
+        display: block;
+        background-color: #fff;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+
+    }
+    .r-h2 h2 {
+        color: #000;
+        text-align: center;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .r-h2 img {
+        width: 40%;
+        padding: 30px;
+        display: inline-flex;
+    }
+
+    .datatable {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .row {
+        font-size: 2rem;
+    }
+    .aside-r h2::after{
+        display: none;
+    }
+}
