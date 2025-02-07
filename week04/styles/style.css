@@ -1,0 +1,35 @@
+img {
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    background-color: #133829;
+    color: #fff;
+    height: 100px;
+    line-height: normal;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+        filter: brightness(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: #133829;
+    color: #fff;
+
+}
