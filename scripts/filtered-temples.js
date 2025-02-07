@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
             photosContainer.appendChild(card);
         });
     };
-
+    displayTemples(temples);
 
     navMenu.addEventListener("click", (e) => {
         e.preventDefault();
