@@ -47,3 +47,13 @@ div {
     margin: 0 auto;
     padding: 30px;
 }
+
+footer {
+    background-color: #092433;
+    color: #ffffff;
+    height: 50px;
+}
+
+footer p {
+    line-height: 50px;
+}
