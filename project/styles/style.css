@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ececec;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+h1 {
+    line-height: 80px;
+}
+
+h1,
+h2 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Liter", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #092433;
+    color: #ffffff;
+}
+
+div {
+    margin: 0 auto;
+    padding: 30px;
+}
