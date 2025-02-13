@@ -18,11 +18,11 @@ h1 {
     height: 80px;
     margin: 0 auto;
     padding: 20px;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 p {
-    font-family: "Abril Fatface" sans-serif;
+    font-family: "Abril Fatface", sans-serif;
 }
 
 form {
