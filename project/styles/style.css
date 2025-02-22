@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -47,6 +48,7 @@ div {
     margin: 0 auto;
     padding: 30px;
 }
+
 
 footer {
     background-color: #092433;
