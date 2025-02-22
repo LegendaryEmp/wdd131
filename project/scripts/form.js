@@ -1,8 +1,8 @@
 
 const products = [
-    { id: 1, name: "Product A" },
-    { id: 2, name: "Product B" },
-    { id: 3, name: "Product C" }
+    { id: 1, name: "HP 240 G8" },
+    { id: 2, name: "Dell Latitude 5420" },
+    { id: 3, name: "Dell Latitude 5491" }
 ];
 
 function populateProductOptions() {
